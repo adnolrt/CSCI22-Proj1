@@ -1,0 +1,67 @@
+<!--
+    Aidan Lucas P. Olarte, 203728
+    John Matthew V. Samson, 205883
+    July 8, 2022
+
+    We certify that this submission complies with the DISCS Academic 
+    Integrity Policy.
+
+    If we have discussed my HTML code with anyone other than
+    our instructor(s), our groupmate(s), the teaching assistant(s),
+    the extent of each discussion has been clearly noted along with a
+    proper citation in the comments of our program.
+
+    If any HTML code or documentation used in our program was obtained 
+    from another source, either modified or unmodified, such as a textbook, 
+    website, or another individual, the extent of its use has been clearly 
+    noted along with a proper citation in the comments of my program.
+-->
+
+<!--
+  https://stackoverflow.com/questions/7372067/is-there-any-way-to-prevent-input-type-number-getting-negative-values
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=styles.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>ABC Coffee Management hub</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="Customer/customers.html">Customers</a></li>
+        <li><a href="Food/foods.html">Coffee</a></li>
+        <li><a href="Order/orders.html">Orders</a></li>
+        <li><a href="Employees/managersignin.html">Employees</a></li>
+      </ul>
+    </nav> 
+
+    <img src="Images/abccoffeelogo.png" class="center">
+
+    <main>
+      <header>
+        <h1>ABC Coffee Management Hub</h1>
+        <h2>Select a section you wish to view.</h2>
+      </header>
+      
+      <section id="sections">
+        <div class="grid-item"><a href="Customer/customers.html"><h3>Customers</h3></a></div>
+        <div class="grid-item"><a href="Food/foods.html"><h3>Coffee</h3></a></div>
+        <div class="grid-item"><a href="Order/orders.html"><h3>Orders</h3></a></div>
+        <div class="grid-item"><a href="index.html"><h3>Employees</h3></a></div>
+      </section>
+    </main>
+
+    <footer> 
+      <h6>2022. All rights reserved. Powered by HTML.</h6>
+    </footer>
+  </body>
+</html>

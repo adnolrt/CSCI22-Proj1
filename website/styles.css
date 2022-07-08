@@ -1,0 +1,233 @@
+/*
+    Aidan Lucas P. Olarte, 203728
+    John Matthew V. Samson, 205883
+    July 8, 2022
+
+    We certify that this submission complies with the DISCS Academic 
+    Integrity Policy.
+
+    If we have discussed my CSS code with anyone other than
+    our instructor(s), our groupmate(s), the teaching assistant(s),
+    the extent of each discussion has been clearly noted along with a
+    proper citation in the comments of our program.
+
+    If any CSS code or documentation used in our program was obtained 
+    from another source, either modified or unmodified, such as a textbook, 
+    website, or another individual, the extent of its use has been clearly 
+    noted along with a proper citation in the comments of my program.
+*/
+
+/*
+    https://stackoverflow.com/questions/2528047/how-to-make-a-form-input-field-large
+    https://stackoverflow.com/questions/20872200/giving-a-border-to-an-html-table-row-tr
+*/
+
+body{
+    background-color: sienna;
+    color: #fafafa;
+}
+
+h1,h2,h3,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.form{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: repeat(24px);
+}
+
+.split-customer-view{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 1;
+}
+
+.table-button{
+    margin-left: 16px;
+}
+
+td{
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+tr{
+    outline: solid black 2px;
+}
+
+.header-button-combo{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-button-combo > button{
+    max-width: max-content;
+}
+
+.big-input{
+    width: 232px;
+    height: 104px;
+}
+
+#total-price{
+    text-align: right;
+}
+
+nav{
+    margin-bottom: 40px;
+}
+
+ul{
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    background-color: #594133;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #fafafa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #34241A;
+    color: #fafafa;
+}
+
+a{
+    display: block;
+    background-color: #594133;
+    color: #fafafa;
+    font-family: 'Inter', sans-serif;
+}
+
+a:hover{
+    background-color:#261A13;
+}
+
+button{
+    background-color: #594133;
+    color: #fafafa;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: #261A13;
+}
+
+button a{
+    display: block;
+    color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+}
+
+main{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.hub{
+    display: flex;
+    justify-content: center;   
+}
+
+footer{
+    margin-top: 40px;
+    padding: 8px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #594133;
+    color: #fafafa;
+    text-align: center;
+}
+
+h6{
+    text-transform: uppercase;
+}
+
+#delete{
+    background-color: #D03C3C;
+}
+
+#delete:hover{
+    background-color: #871111;
+}
+
+#delete > a{
+    background-color: #D03C3C;
+}
+
+#delete > a:hover{
+    background-color: #871111;
+}
+
+#button-group{
+    margin-top: 40px;
+}
+
+label{
+    font-family: 'Inter', sans-serif;
+}
+
+table{
+    padding: 24px;
+}
+
+#sections{
+    display: grid;
+    grid-template-columns: 528px 528px;
+    grid-template-rows: repeat(64px);
+}
+
+#sections > div{
+    padding: 24px;
+}
+
+#sections > div > a{
+    width: 528px;
+    text-align: center;
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
